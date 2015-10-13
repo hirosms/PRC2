@@ -5,6 +5,9 @@
  */
 package prc2;
 
+import java.net.*;
+import java.io.*;
+
 /**
  *
  * @author Sergio
@@ -16,6 +19,8 @@ public class PRC2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        URLReader url = new URLReader ("oxford");
+        
+        
     }
-    
 }
