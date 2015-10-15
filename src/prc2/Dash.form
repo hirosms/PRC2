@@ -95,9 +95,44 @@
     <Component class="javax.swing.JComboBox" name="Place">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="2">
-            <StringItem index="0" value="oxford"/>
-            <StringItem index="1" value="aberporth"/>
+          <StringArray count="37">
+            <StringItem index="0" value="aberporth"/>
+            <StringItem index="1" value="armagh"/>
+            <StringItem index="2" value="ballypatrick"/>
+            <StringItem index="3" value="bradford"/>
+            <StringItem index="4" value="braemar"/>
+            <StringItem index="5" value="camborne"/>
+            <StringItem index="6" value="cambridge"/>
+            <StringItem index="7" value="cardiff"/>
+            <StringItem index="8" value="chivenor"/>
+            <StringItem index="9" value="cwmystwyth"/>
+            <StringItem index="10" value="dunstaffnage"/>
+            <StringItem index="11" value="durham"/>
+            <StringItem index="12" value="eastbourne"/>
+            <StringItem index="13" value="eskdalemuir"/>
+            <StringItem index="14" value="heathrow"/>
+            <StringItem index="15" value="hurn"/>
+            <StringItem index="16" value="lerwick"/>
+            <StringItem index="17" value="leuchars"/>
+            <StringItem index="18" value="lowestoft"/>
+            <StringItem index="19" value="manston"/>
+            <StringItem index="20" value="nairn"/>
+            <StringItem index="21" value="newton"/>
+            <StringItem index="22" value="oxford"/>
+            <StringItem index="23" value="paisley"/>
+            <StringItem index="24" value="rossonwye"/>
+            <StringItem index="25" value="ringway"/>
+            <StringItem index="26" value="shawbury"/>
+            <StringItem index="27" value="sheffield"/>
+            <StringItem index="28" value="southampton"/>
+            <StringItem index="29" value="stornoway"/>
+            <StringItem index="30" value="suttonbonington"/>
+            <StringItem index="31" value="tiree"/>
+            <StringItem index="32" value="valley"/>
+            <StringItem index="33" value="waddington"/>
+            <StringItem index="34" value="whitby"/>
+            <StringItem index="35" value="wickairport"/>
+            <StringItem index="36" value="yeovilton"/>
           </StringArray>
         </Property>
       </Properties>

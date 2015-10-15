@@ -76,7 +76,7 @@ public class Dash extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Place.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "oxford", "aberporth" }));
+        Place.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "aberporth", "armagh", "ballypatrick", "bradford", "braemar", "camborne", "cambridge", "cardiff", "chivenor", "cwmystwyth", "dunstaffnage", "durham", "eastbourne", "eskdalemuir", "heathrow", "hurn", "lerwick", "leuchars", "lowestoft", "manston", "nairn", "newton", "oxford", "paisley", "rossonwye", "ringway", "shawbury", "sheffield", "southampton", "stornoway", "suttonbonington", "tiree", "valley", "waddington", "whitby", "wickairport", "yeovilton" }));
         Place.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PlaceActionPerformed(evt);
@@ -241,7 +241,7 @@ public class Dash extends javax.swing.JFrame {
         int n = Integer.parseInt(Year.getSelectedItem().toString());
         int ini = get_pos(n);
                 
-        graph.PieGraphI(dataset.afdays, ini, But_rain.getText(), ""+n);
+        graph.PieGraphF(dataset.rain, ini, But_rain.getText(), ""+n);
     }//GEN-LAST:event_But_rainActionPerformed
 
     private void But_sunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_But_sunActionPerformed
@@ -249,7 +249,7 @@ public class Dash extends javax.swing.JFrame {
         int n = Integer.parseInt(Year.getSelectedItem().toString());
         int ini = get_pos(n);
                 
-        graph.PieGraphI(dataset.afdays, ini, But_sun.getText(), ""+n);
+        graph.PieGraphF(dataset.sun, ini, But_sun.getText(), ""+n);
     }//GEN-LAST:event_But_sunActionPerformed
 
     /**
