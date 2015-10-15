@@ -19,7 +19,18 @@ public class PRC2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        URLReader url = new URLReader ("oxford");
+        Dataset url = new Dataset ("oxford");
+        
+        url.print_tmax();
+        
+        /*
+        for(int i = 0; i < url.tmax.size();i++)
+        {
+            System.out.println(url.tmax.get(i));
+            System.out.println("----");
+        }
+        */
+        
         
         
     }
